@@ -11,7 +11,7 @@ Sub percent()
     Dim i As Integer
     Dim j As Integer
     For i = 3 To MaxRow
-        MaxCol = Cells(i, Columns.Count).End(xlToLeft).Column
+        MaxCol = Cells(i, 2).End(xlToRight).Column
         mol = 0
         den = 0
         For j = 3 To MaxCol
